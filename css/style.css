@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #3292a6;
+    border-bottom: 3px solid #3292a6;
+}
+
+#main-header {
+    position: relative;
+    background: url('../img/mountains.jpg');
+    height: 625px;
+}
+
+#image-overlay {
+    background-color: #3292a6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+hr.style {
+    border-top: 2px solid #3292a6;
+}
+
+#about-section {
+    background: #e1e4e6;
+}
+
+#contact {
+    background: #e1e4e6;
+}
+
+.logo {
+    width: 280px;
+}
+
+@media (max-width:576px) {
+
+    #authors .card,
+    #about .card {
+        margin-bottom: 20px;
+    }
+
+    #newsletter .form-control {
+        margin-bottom: 20px;
+    }
+
+    #main-header {
+        background: url('../img/mountains.jpg') no-repeat;
+        background-size: cover;
+        height: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-header {
+        background: url('../img/mountains.jpg') no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
